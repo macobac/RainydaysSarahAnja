@@ -96,7 +96,7 @@ nav,
 }
 
 .hometext p {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1rem;
 }
 
@@ -167,12 +167,15 @@ p.seemore {
 }
 
 footer {
-  display: grid;
-  grid-gap: 0.6em;
-  grid-template-columns: auto auto auto auto auto;
   background-color: #0a3641;
   width: 100%;
   min-height: 200px;
+}
+
+.footerwrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  
 }
 
 .footertext {
@@ -195,11 +198,14 @@ footer {
   font-weight: 500;
 }
 
-.footertext img {
-  min-height: 90px;
+.footerimg img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  padding: 15px 0px;
 }
-
-
 
 footer {grid-area: footer;}
 
