@@ -357,4 +357,93 @@ footer {
   
 }
 
-/* 1080/1440 */
+@media (min-width: 800px) {
+  .jackettextbig {
+    margin-right: 45px;
+  }
+
+ 
+  .hometext {
+    width: 29%;
+    margin-top: -300px;
+    left: 520px;
+  }
+}
+
+@media (min-width: 850px) {
+  .jackettextbig {
+    margin-right: 55px;
+  }
+
+ 
+  .hometext {
+    margin-top: -330px;
+    left: 560px;
+  }
+}
+
+@media (min-width: 900px) {
+  .jackettextbig {
+    font-size: 1rem;
+  }
+
+ 
+  .hometext {
+    margin-top: -370px;
+    left: 600px;
+  }
+
+  .hometext h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hometext p, .learnmore-btn {
+    font-size: 1.1rem;
+  }
+
+  .learnmore-btn {
+    height: 35px;
+    width: 140px;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .hometext {
+    margin-top: -380px;
+    left: 650px;
+  }
+
+  .jackettextbig {
+    margin-right: 85px;
+  }
+}
+
+@media (min-width: 1100px) {
+
+  .hometext {
+    margin-top: -400px;
+    left: 740px;
+  }
+}
+
+@media (min-width: 1100px) {
+
+  .hometext {
+    left: 740px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .hometext {
+    left: 830px;
+  }
+}
+
+@media (min-width: 1300px) {
+
+  .hometext {
+    left: 870px;
+  }
+}
