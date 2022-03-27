@@ -250,7 +250,7 @@ footer {
     position: static;
   }
 
-  .fa-angle-down {
+  .headerchild .fa-angle-down {
     display: none;
   }
 
@@ -271,12 +271,13 @@ footer {
   }
 
   .home-newin-mobile {
-    padding: 40px 45px;
+    display: none;
   }
 
   .homeimg {
     display: none;
   }
+
 
   .homeimgbig {
     display: block;
@@ -309,10 +310,73 @@ footer {
     width: 120px;
   }
 
+  .home-newin-big {
+    display: block;
+  }
 
 
 
-  
+.home-newin-big {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px 70px;
+}
+
+.cardstextbig {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardsimgbig img {
+  height: auto;
+  max-width: 75%;
+}
+
+.cardsimgbig {
+  text-align: center;
+}
+
+
+.homeh2 {
+  font-size: 1.7rem;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.cardstextbig {
+  font-size: 0.8rem;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+}
+
+.jackettextbig {
+  margin-right: 50px;
+}
+
+.fa-heart-big {
+  margin-left: 10px;
+  padding-top: 4px;
+  font-size: 1.1rem;
+}
+
+.jacketnamebig {
+  margin-top: 4px;
+}
+
+.jacketpricebig {
+  margin-top: -8px;
+}
+
+
+
+
+.seemorebig {
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+}
+
 
 }
 
