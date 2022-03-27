@@ -22,7 +22,7 @@
 /* Global is size from 300px */
 
 body {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   font-family: "Helvetica Neue";
 }
 
@@ -78,6 +78,10 @@ nav,
   display: block;
 }
 
+.homeimgbig, .home-newin-big {
+  display: none;
+}
+
 .homeimg {
   height: auto;
   width: 100%;
@@ -113,8 +117,8 @@ nav,
   margin-top: 5px;
 }
 
-
-.home-newin, .hometext {
+.home-newin-mobile,
+.hometext {
   padding: 20px 5px;
 }
 
@@ -128,13 +132,21 @@ h2 {
 .cardsimg {
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .cardsimg .fa-solid {
   font-size: 3rem;
   color: #9e9c9ca4;
   padding-top: 100px;
+}
+
+.cardsimg .fa-angle-right {
+  padding-left: 15px;
+}
+
+.fa-angle-left {
+  padding-right: 15px;
 }
 
 .cardsimg img {
@@ -146,27 +158,31 @@ h2 {
   font-size: 1rem;
   font-weight: 100;
   display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-
+  justify-content: center;
 }
 
-
 .cardstext .jacketprice {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
 .cardstext .fa-heart {
-    font-size: 1.5rem;
-    color: #4A93A5;
-    margin-right: 30px;
-    margin-top: 15px;
+  font-size: 1.5rem;
+  color: #4a93a5;
+  margin-top: 15px;
+}
+
+.jackettext {
+  padding-right: 60px;
+}
+
+p.seemore .fa-heart {
+  padding-left: 60px;
 }
 
 p.seemore {
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: right;
+  font-size: 1rem;
+  font-weight: 300;
+  text-align: right;
 }
 
 footer {
@@ -178,17 +194,16 @@ footer {
 .footerwrapper {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  
 }
 
 .footertext {
   font-size: 0.6rem;
-    font-weight: 300;
-    text-align: left;
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 15px;
 }
 
 .footertext a {
@@ -210,15 +225,29 @@ footer {
   padding: 15px 0px;
 }
 
-footer {grid-area: footer;}
+footer {
+  grid-area: footer;
+}
 
+@media (min-width: 480px) {
+  .home-newin-mobile {
+    padding: 25px 30px;
+  }
+}
 
-
-
+@media (min-width: 600px) {
+  .footertext {
+    font-size: 0.8rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 25px;
+  }
+}
 
 @media (min-width: 700px) {
   nav {
     display: block;
+    position: static;
   }
 
   .fa-angle-down {
@@ -227,7 +256,64 @@ footer {grid-area: footer;}
 
   nav a {
     display: inline;
+    font-size: 0.9rem;
+    top: 45px;
+    right: 7px;
+    background-color: none;
+    border: none;
+    margin-left: -30px;
   }
+
+  .rdlogo {
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .home-newin-mobile {
+    padding: 40px 45px;
+  }
+
+  .homeimg {
+    display: none;
+  }
+
+  .homeimgbig {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .hometext {
+    color: white;
+    text-align: left;
+    width: 24%;
+    margin-top: -320px;
+    left: 480px;
+    position: absolute;
+  }
+
+  .hometext h1 {
+    line-height: 30px;
+  }
+
+  .hometext p {
+    font-size: 0.9rem;
+    line-height: 21px;
+  }
+
+  .learnmore-btn {
+    box-shadow: 2px 3px 2px #131313bd;
+    font-size: 0.9rem;
+    height: 30px;
+    width: 120px;
+  }
+
+
+
+
+  
+
 }
 
 /* 1080/1440 */
