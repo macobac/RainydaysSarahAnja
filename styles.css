@@ -144,22 +144,22 @@ h2 {
   justify-content: center;
 }
 
-.cardstext .jacketprice {
+.jacketprice {
   margin-top: -10px;
 }
 
 .cardstext .fa-heart {
   font-size: 1.5rem;
   color: #4a93a5;
+}
+
+.fa-heart {
   margin-top: 15px;
+  padding-left: 10px;
 }
 
 .jackettext {
-  padding-right: 60px;
-}
-
-p.seemore .fa-heart {
-  padding-left: 60px;
+  padding-right: 100px;
 }
 
 p.seemore {
@@ -331,13 +331,14 @@ footer {
   }
 
   .jackettextbig {
-    margin-right: 50px;
+    margin-right: 25px;
   }
 
   .fa-heart-big {
-    margin-left: 10px;
-    padding-top: 4px;
-    font-size: 1.1rem;
+    margin-left: 8px;
+    margin-top: 2px;
+    font-size: 1.5rem;
+    color: #4a93a5;
   }
 
   .jacketnamebig {
