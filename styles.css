@@ -1,29 +1,11 @@
-@font-face {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  src: url(Fonts/HelveticaNeue/HelveticaNeueCyr-Light.woff) format("woff");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  src: url(Fonts/HelveticaNeue/HelveticaNeueCyr-Medium.woff) format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  src: url(Fonts/HelveticaNeue/HelveticaNeueCyr-Bold.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
 
 /* Global is size from 300px */
 
+
+
 body {
   background-color: #f5f5f5;
-  font-family: "Helvetica Neue";
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -78,7 +60,8 @@ nav,
   display: block;
 }
 
-.homeimgbig, .home-newin-big {
+.homeimgbig,
+.home-newin-big {
   display: none;
 }
 
@@ -278,7 +261,6 @@ footer {
     display: none;
   }
 
-
   .homeimgbig {
     display: block;
     height: auto;
@@ -314,70 +296,64 @@ footer {
     display: block;
   }
 
+  .home-newin-big {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px 70px;
+  }
 
+  .cardstextbig {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.home-newin-big {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px 70px;
-}
+  .cardsimgbig img {
+    height: auto;
+    max-width: 75%;
+  }
 
-.cardstextbig {
-  display: flex;
-  justify-content: space-between;
-}
+  .cardsimgbig {
+    text-align: center;
+  }
 
-.cardsimgbig img {
-  height: auto;
-  max-width: 75%;
-}
+  .homeh2 {
+    font-size: 1.7rem;
+    padding-left: 40px;
+    padding-top: 40px;
+  }
 
-.cardsimgbig {
-  text-align: center;
-}
+  .cardstextbig {
+    font-size: 0.8rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+  }
 
+  .jackettextbig {
+    margin-right: 50px;
+  }
 
-.homeh2 {
-  font-size: 1.7rem;
-  padding-left: 40px;
-  padding-top: 40px;
-}
+  .fa-heart-big {
+    margin-left: 10px;
+    padding-top: 4px;
+    font-size: 1.1rem;
+  }
 
-.cardstextbig {
-  font-size: 0.8rem;
-  font-weight: 100;
-  display: flex;
-  justify-content: center;
-}
+  .jacketnamebig {
+    margin-top: 4px;
+  }
 
-.jackettextbig {
-  margin-right: 50px;
-}
+  .jacketpricebig {
+    margin-top: -8px;
+  }
 
-.fa-heart-big {
-  margin-left: 10px;
-  padding-top: 4px;
-  font-size: 1.1rem;
-}
+  .seemorebig {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
 
-.jacketnamebig {
-  margin-top: 4px;
-}
-
-.jacketpricebig {
-  margin-top: -8px;
-}
-
-
-
-
-.seemorebig {
-  padding-top: 10px;
-  padding-bottom: 30px;
-
-}
-
-
+  
 }
 
 /* 1080/1440 */
