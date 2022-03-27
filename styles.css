@@ -447,3 +447,26 @@ footer {
     left: 870px;
   }
 }
+
+@media (min-width: 1400px) {
+
+  .hometext {
+    left: 920px;
+  }
+
+  .jackettextbig {
+    margin-right: 95px;
+  }
+}
+
+@media (min-width: 1600px) {
+
+  .hometext {
+    left: 1300px;
+    margin-top: -600px;
+  }
+
+  .jackettextbig {
+    margin-right: 95px;
+  }
+}
