@@ -35,16 +35,20 @@ a {
   padding-top: 38px;
 }
 
+.headerchild {
+  position: relative;
+}
+
 nav {
   position: absolute;
+  right: 0;
+  top: 90px;
 }
 
 nav a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  top: 31px;
-  right: 63px;
   padding: 10px 30px;
   position: relative;
   background-color: #0a3641;
@@ -267,13 +271,17 @@ footer {
     width: 100%;
   }
 
+  .homefirst {
+    position: relative;
+  }
+
   .hometext {
     color: white;
     text-align: left;
-    width: 24%;
-    margin-top: -320px;
-    left: 480px;
     position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-25%, -50%)
   }
 
   .hometext h1 {
@@ -328,10 +336,21 @@ footer {
     font-weight: 100;
     display: flex;
     justify-content: center;
+    position: relative;
   }
 
   .jackettextbig {
     margin-right: 25px;
+  }
+
+  .wrapperbig {
+    position: relative;
+    padding-bottom: 2.7rem;
+  }
+
+  .cardstextbig {
+    position: absolute;
+    transform: translate(18%, 1%);
   }
 
   .fa-heart-big {
@@ -357,40 +376,11 @@ footer {
   
 }
 
-@media (min-width: 800px) {
-  .jackettextbig {
-    margin-right: 45px;
-  }
 
- 
-  .hometext {
-    width: 29%;
-    margin-top: -300px;
-    left: 520px;
-  }
-}
-
-@media (min-width: 850px) {
-  .jackettextbig {
-    margin-right: 55px;
-  }
-
- 
-  .hometext {
-    margin-top: -330px;
-    left: 560px;
-  }
-}
 
 @media (min-width: 900px) {
   .jackettextbig {
     font-size: 1rem;
-  }
-
- 
-  .hometext {
-    margin-top: -370px;
-    left: 600px;
   }
 
   .hometext h1 {
@@ -409,64 +399,9 @@ footer {
 
 @media (min-width: 1000px) {
 
-  .hometext {
-    margin-top: -380px;
-    left: 650px;
-  }
-
-  .jackettextbig {
-    margin-right: 85px;
+  .cardstextbig {
+    transform: translate(25%, 3%);
   }
 }
 
-@media (min-width: 1100px) {
 
-  .hometext {
-    margin-top: -400px;
-    left: 740px;
-  }
-}
-
-@media (min-width: 1100px) {
-
-  .hometext {
-    left: 740px;
-  }
-}
-
-@media (min-width: 1200px) {
-
-  .hometext {
-    left: 830px;
-  }
-}
-
-@media (min-width: 1300px) {
-
-  .hometext {
-    left: 870px;
-  }
-}
-
-@media (min-width: 1400px) {
-
-  .hometext {
-    left: 920px;
-  }
-
-  .jackettextbig {
-    margin-right: 95px;
-  }
-}
-
-@media (min-width: 1600px) {
-
-  .hometext {
-    left: 1300px;
-    margin-top: -600px;
-  }
-
-  .jackettextbig {
-    margin-right: 95px;
-  }
-}
