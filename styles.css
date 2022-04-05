@@ -311,18 +311,14 @@ footer {
     padding: 10px 70px;
   }
 
-  .cardstextbig {
-    display: flex;
-    justify-content: space-between;
-  }
 
   .cardsimgbig img {
     height: auto;
-    max-width: 75%;
   }
 
   .cardsimgbig {
     text-align: center;
+
   }
 
   .homeh2 {
@@ -335,23 +331,20 @@ footer {
     font-size: 0.8rem;
     font-weight: 100;
     display: flex;
-    justify-content: center;
-    position: relative;
+    justify-content: space-between;
   }
 
   .jackettextbig {
     margin-right: 25px;
+    font-size: 0.8rem;
   }
 
   .wrapperbig {
-    position: relative;
+    display: flex;
     padding-bottom: 2.7rem;
+
   }
 
-  .cardstextbig {
-    position: absolute;
-    transform: translate(18%, 1%);
-  }
 
   .fa-heart-big {
     margin-left: 8px;
@@ -378,7 +371,7 @@ footer {
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
   .jackettextbig {
     font-size: 1rem;
   }
@@ -397,11 +390,8 @@ footer {
   }
 }
 
-@media (min-width: 1000px) {
-
-  .cardstextbig {
-    transform: translate(25%, 3%);
-  }
+@media (min-width: 900px) {
+  
 }
 
 
