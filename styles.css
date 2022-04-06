@@ -385,7 +385,18 @@ footer {
 }
 
 @media (min-width: 900px) {
+
+ footer {
+  display: flex;
+  }
   
+  .footertext {
+    order: 2;
+  }
+  
+  .footerimg img {
+    order: 1;
+  }
 }
 
 
