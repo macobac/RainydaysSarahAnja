@@ -203,7 +203,7 @@ footer {
   font-weight: 500;
 }
 
-.footerimg img {
+.footerlogoimg {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -388,13 +388,14 @@ footer {
 
  footer {
   display: flex;
+  
   }
   
   .footertext {
     order: 2;
   }
   
-  .footerimg img {
+  .footerlogoimg {
     order: 1;
   }
 }
