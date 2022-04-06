@@ -252,6 +252,14 @@ footer {
   padding: 10px 0px;
 }
 
+/* contact section */
+
+.contacttext {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+
 @media (min-width: 480px) {
   .home-newin-mobile {
     padding: 25px 30px;
