@@ -157,7 +157,7 @@ h2 {
   color: #4a93a5;
 }
 
-.fa-heart {
+.cardstext .fa-heart {
   margin-top: 15px;
   padding-left: 10px;
 }
@@ -388,16 +388,68 @@ footer {
 
  footer {
   display: flex;
-  
+  flex-direction: row-reverse;
+  justify-content: center;
+ 
   }
-  
-  .footertext {
-    order: 2;
-  }
+
   
   .footerlogoimg {
-    order: 1;
+    width: 25%;
+    padding-top: 50px;
   }
 }
 
+@media (min-width: 1200px) {
 
+  .hometext h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  
+  .hometext p, .learnmore-btn {
+    font-size: 1.3rem;
+    line-height: 25px;
+  }
+
+  .learnmore-btn {
+    height: 45px;
+    width: 170px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hometext p {
+    padding: 20px 0px;
+    line-height: 30px;
+    font-size: 1.5rem;
+  }
+
+  .learnmore-btn {
+    font-size: 1.5rem;
+    height: 50px;
+    width: 190px;
+  }
+
+  .hometext h1 {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+
+  .homeh2 {
+    font-size: 2rem;
+  }
+
+  .cardstextbig {
+    padding-top: 10px;
+  }
+
+  .jackettextbig, .seemorebig {
+    font-size: 1.2rem;
+  }
+
+  .fa-heart-big {
+    font-size: 2rem;
+  }
+
+}
