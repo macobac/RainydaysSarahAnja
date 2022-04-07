@@ -259,9 +259,16 @@ footer {
   font-size: 1rem;
 }
 
+.forminput input {
+  width: 70%;
+}
+
+.forminput textarea {
+  width: 90%;
+}
+
 .forminput input,
 .forminput textarea {
-  width: 100%;
   padding: 8px 5px;
   margin: 0;
   box-sizing: border-box;
@@ -307,6 +314,7 @@ footer {
   font-weight: 100;
   font-size: 1rem;
   box-shadow: inset 6px 6px 20px #9be0f1a0;
+  margin-bottom: 10%;
 }
 
 .submitbtn:hover {
@@ -527,7 +535,7 @@ footer {
 
 @media (min-width: 1200px) {
   nav a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     top: 45px;
     right: 30px;
     margin-left: -10px;
@@ -592,6 +600,38 @@ footer {
     font-weight: 500;
     font-size: 2rem;
   }
+
+  /* contact section */
+
+  .contacttext {
+    font-size: 1.5rem;
+  }
+
+  .forminput input {
+    width: 50%;
+  }
+
+  .forminput textarea {
+    width: 70%;
+  }
+
+  .forminput label {
+    font-size: 1.5rem;
+  }
+
+  .forminput ::placeholder {
+    font-size: 1.1rem;
+  }
+
+  .forminput p {
+    font-size: 1rem;
+  }
+
+  .submitbtn {
+    height: 40px;
+    width: 150px;
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -631,13 +671,6 @@ footer {
 
   /* about section */
 
-  .backtitle h2 {
-    font-size: 2.5rem;
-  }
-
-  .backtitle a {
-    font-size: 1.5rem;
-  }
 
   .aboutmain {
     padding: 0px 250px;
@@ -651,15 +684,5 @@ footer {
   .backtitle {
     padding-left: 75px;
     padding-top: 50px;
-  }
-
-  .abouttext p {
-    font-weight: 300;
-    font-size: 1.7rem;
-  }
-
-  .abouttext h3 {
-    font-weight: 500;
-    font-size: 2.2rem;
   }
 }
