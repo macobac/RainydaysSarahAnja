@@ -62,7 +62,8 @@ nav,
 }
 
 .homeimgbig,
-.home-newin-big, .backtitle {
+.home-newin-big,
+.backtitle {
   display: none;
 }
 
@@ -148,7 +149,6 @@ h2 {
 .jacketprice {
   margin-top: -10px;
 }
-
 
 .cardstext .fa-heart {
   font-size: 1.5rem;
@@ -326,7 +326,7 @@ footer {
 
 .wrapperselect {
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 select {
@@ -347,7 +347,7 @@ select {
 .wrappershop .cardsimg img {
   max-width: 70%;
   margin-bottom: -8px;
-} 
+}
 
 .wrappershop .jackettext {
   padding-right: 10px;
@@ -515,6 +515,24 @@ select {
   .aboutmain {
     padding: 0px 50px;
   }
+
+  /* shop section */
+
+  .mainshop h2 {
+    display: none;
+  }
+
+  .backtitle h2 {
+    display: block;
+  }
+
+  .wrappershop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .wrappershop .cardsimg img {
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -575,6 +593,16 @@ select {
   .backtitle {
     padding-left: 45px;
     padding-top: 30px;
+  }
+
+  /* shop section */
+
+  .wrappershop {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .wrappershop .cardsimg img {
+    max-width: 40%;
   }
 }
 
