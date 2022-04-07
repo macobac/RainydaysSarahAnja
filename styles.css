@@ -259,6 +259,59 @@ footer {
   font-size: 1rem;
 }
 
+.forminput input,
+.forminput textarea {
+  width: 100%;
+  padding: 8px 5px;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 0 0 4px #4a93a5;
+}
+
+#file {
+  box-shadow: none;
+}
+
+.forminput {
+  padding-bottom: 15px;
+}
+
+.forminput label {
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  margin: 10px 0px;
+}
+
+.forminput ::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 0.9rem;
+  color: #494c4d9c;
+}
+
+.forminput p {
+  font-weight: 300;
+  font-size: 0.7rem;
+  color: #4a93a5;
+}
+
+.submitbtn {
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: #4a93a5;
+  height: 35px;
+  width: 140px;
+  font-weight: 100;
+  font-size: 1rem;
+  box-shadow: inset 6px 6px 20px #9be0f1a0;
+}
+
+.submitbtn:hover {
+  box-shadow: inset 6px 6px 20px #30606ca0;
+}
 
 @media (min-width: 480px) {
   .home-newin-mobile {
@@ -409,8 +462,6 @@ footer {
   .aboutmain {
     padding: 0px 50px;
   }
-
-
 }
 
 @media (min-width: 800px) {
@@ -451,33 +502,30 @@ footer {
 
   /* about section */
 
-.backtitle h2 {
-  font-size: 2rem;
-}
+  .backtitle h2 {
+    font-size: 2rem;
+  }
 
-.backtitle a {
-  font-size: 1.3rem;
-}
+  .backtitle a {
+    font-size: 1.3rem;
+  }
 
-.aboutmain {
-  padding: 0px 130px;
-}
+  .aboutmain {
+    padding: 0px 130px;
+  }
 
-.aboutimg {
+  .aboutimg {
     height: auto;
     width: 70%;
-}
+  }
 
-.backtitle {
-  padding-left: 45px;
-  padding-top: 30px;
-}
-
-
+  .backtitle {
+    padding-left: 45px;
+    padding-top: 30px;
+  }
 }
 
 @media (min-width: 1200px) {
-
   nav a {
     font-size: 1.3rem;
     top: 45px;
@@ -513,37 +561,37 @@ footer {
 
   /* about section */
 
-.backtitle h2 {
-  font-size: 2.5rem;
-}
+  .backtitle h2 {
+    font-size: 2.5rem;
+  }
 
-.backtitle a {
-  font-size: 1.5rem;
-}
+  .backtitle a {
+    font-size: 1.5rem;
+  }
 
-.aboutmain {
-  padding: 0px 200px;
-}
+  .aboutmain {
+    padding: 0px 200px;
+  }
 
-.aboutimg {
+  .aboutimg {
     height: auto;
     width: 70%;
-}
+  }
 
-.backtitle {
-  padding-left: 75px;
-  padding-top: 50px;
-}
+  .backtitle {
+    padding-left: 75px;
+    padding-top: 50px;
+  }
 
-.abouttext p {
-  font-weight: 300;
-  font-size: 1.5rem;
-}
+  .abouttext p {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
 
-.abouttext h3 {
-  font-weight: 500;
-  font-size: 2rem;
-}
+  .abouttext h3 {
+    font-weight: 500;
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -583,36 +631,35 @@ footer {
 
   /* about section */
 
-.backtitle h2 {
-  font-size: 2.5rem;
-}
+  .backtitle h2 {
+    font-size: 2.5rem;
+  }
 
-.backtitle a {
-  font-size: 1.5rem;
-}
+  .backtitle a {
+    font-size: 1.5rem;
+  }
 
-.aboutmain {
-  padding: 0px 250px;
-}
+  .aboutmain {
+    padding: 0px 250px;
+  }
 
-.aboutimg {
+  .aboutimg {
     height: auto;
     width: 70%;
-}
+  }
 
-.backtitle {
-  padding-left: 75px;
-  padding-top: 50px;
-}
+  .backtitle {
+    padding-left: 75px;
+    padding-top: 50px;
+  }
 
-.abouttext p {
-  font-weight: 300;
-  font-size: 1.7rem;
-}
+  .abouttext p {
+    font-weight: 300;
+    font-size: 1.7rem;
+  }
 
-.abouttext h3 {
-  font-weight: 500;
-  font-size: 2.2rem;
-}
-
+  .abouttext h3 {
+    font-weight: 500;
+    font-size: 2.2rem;
+  }
 }

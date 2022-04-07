@@ -55,28 +55,59 @@
       <h2>Contact Us</h2>
     </div>
     <main class="aboutmain">
-    
-        <p class="contacttext">
-          Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
-          Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed
-          fringilla mauris sit amet nibh. Donec sodales sagittis magna. Donec
-          vitae sapien ut libero venenatis faucibus.
-        </p>
-    
-        <form action="" method="get" class="contactform">
-            <div class="forminput">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" required>
-            </div>
-            <div class="forminput">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div class="forminput">
-                <label for="inquiry">Inquiry</label>
-                <input type="textbox" name="inquiry" id="inquiry" required>
-            </div>
-        </form>
+      <p class="contacttext">
+        Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam
+        sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla
+        mauris sit amet nibh. Donec sodales sagittis magna. Donec vitae sapien
+        ut libero venenatis faucibus.
+      </p>
+
+      <form
+        action="#"
+        method="get"
+        enctype="multipart/form-data"
+        class="formwrapper"
+      >
+        <div class="forminput">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Per Person"
+            required
+          />
+          <p>This field is required</p>
+        </div>
+        <div class="forminput">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="perperson@icloud.com"
+            required
+          />
+          <p>This field is required</p>
+        </div>
+        <div class="forminput">
+          <label for="inquiry">Inquiry</label>
+          <textarea
+            name="inquiry"
+            id="inquiry"
+            cols="30"
+            rows="10"
+            placeholder="Hi! I wanted to ask..."
+            required
+          ></textarea>
+          <p>This field is required</p>
+        </div>
+        <div class="forminput">
+          <label for="file">Add files:</label>
+          <input id="file" type="file" name="file" />
+        </div>
+        <button type="submit" class="submitbtn">Submit</button>
+      </form>
     </main>
 
     <footer>
