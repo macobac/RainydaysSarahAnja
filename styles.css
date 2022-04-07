@@ -671,7 +671,6 @@ footer {
 
   /* about section */
 
-
   .aboutmain {
     padding: 0px 250px;
   }
@@ -684,5 +683,10 @@ footer {
   .backtitle {
     padding-left: 75px;
     padding-top: 50px;
+  }
+
+  .forminput input,
+  .forminput textarea {
+    padding: 12px 10px;
   }
 }
