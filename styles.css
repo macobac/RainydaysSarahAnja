@@ -62,7 +62,7 @@ nav,
 }
 
 .homeimgbig,
-.home-newin-big {
+.home-newin-big, .backtitle {
   display: none;
 }
 
@@ -148,6 +148,7 @@ h2 {
 .jacketprice {
   margin-top: -10px;
 }
+
 
 .cardstext .fa-heart {
   font-size: 1.5rem;
@@ -321,6 +322,46 @@ footer {
   box-shadow: inset 6px 6px 20px #30606ca0;
 }
 
+/* shop section */
+
+.wrapperselect {
+  display: flex;
+justify-content: space-between;
+}
+
+select {
+  color: white;
+  background-color: #4a93a5;
+  border: none;
+  width: 20%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.wrappershop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wrappershop .cardsimg img {
+  max-width: 70%;
+  margin-bottom: -8px;
+} 
+
+.wrappershop .jackettext {
+  padding-right: 10px;
+}
+
+.wrappershop .cardstext .fa-heart {
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.wrappershop .cardstext {
+  padding-bottom: 10px;
+}
+
 @media (min-width: 480px) {
   .home-newin-mobile {
     padding: 25px 30px;
@@ -368,6 +409,10 @@ footer {
 
   .homeimg {
     display: none;
+  }
+
+  .backtitle {
+    display: block;
   }
 
   .homeimgbig {
