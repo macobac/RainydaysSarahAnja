@@ -622,16 +622,49 @@ select {
   border-radius: 10px;
   padding: 10px 0px;
   margin: 10px 0px;
+  background-color: white;
 }
 
 .method label {
   font-weight: 300;
 }
 
-.method a {
-  color: black;
+.vippsbutton {
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  box-shadow: 2px 3px 2px #bbbbbbc5;
+  cursor: pointer;
+  background-color: #FF5B24;
+  height: 30px;
+  width: 230px;
 }
 
+.vippslogo {
+  height: auto;
+  width: 100px;
+}
+
+.emailform {
+  border: solid #0c272dc4 2px;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  background-color: white;
+}
+
+.emailform ::placeholder {
+  color: lightgray;
+
+}
+
+.submit {
+  border: none;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: #00acee;
+  color: white;
+}
 
 @media (min-width: 480px) {
   .home-newin-mobile {
