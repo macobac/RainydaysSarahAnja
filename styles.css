@@ -517,13 +517,19 @@ select {
   display: flex;
   width: 100%;
   padding-top: 30px;
+  margin: 0 auto;
 }
 
 .sideimg img {
-  width: 60%;
+  width: 100%;
 }
 
-.aboutmain h3 {
+.mainimg {
+  padding-left: 20px;
+  width: 100%;
+} 
+
+.aboutjn h3 {
   color: #0a3641;
   font-size: 1.3rem;
   font-weight: 500;
@@ -579,7 +585,34 @@ select {
   cursor: pointer;
 }
 
+.save, .cart {
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  box-shadow: 2px 3px 2px #bbbbbbc5;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
+.save .fa-heart, .cart .fa-bag-shopping {
+  font-size: 1.3rem;
+  color: #00acee;
+}
+
+.save {
+  height: 40px;
+  width: 120px;
+  background-color: #0a3641;
+  color: white;
+  margin-right: 5px;
+}
+
+.cart {
+  height: 40px;
+  width: 160px;
+  background-color: #f7993c;
+  color: white;
+}
 
 
 @media (min-width: 480px) {
