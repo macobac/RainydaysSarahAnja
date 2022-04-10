@@ -513,22 +513,22 @@ select {
 
 /* Jacketname section */
 
-.fleximg {
-  display: flex;
-  width: 100%;
-  padding-top: 30px;
-  margin: 0 auto;
+.grid {
+  grid-template-columns: repeat(3, 1fr);
+  
 }
 
-.sideimg img {
-  width: 60%;
-  height: auto;
+.left {
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
 }
 
-.mainimg {
-  padding-left: 20px;
+.left img {
   width: 100%;
-} 
+  height: 100%;
+  object-fit: cover;
+}
 
 .aboutjn h3 {
   color: #0a3641;
@@ -613,6 +613,19 @@ select {
   width: 160px;
   background-color: #f7993c;
   color: white;
+}
+
+/* checkout section */
+
+.method {
+  border: solid #4a93a5c4 2px;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.method label {
+  font-weight: 300;
 }
 
 

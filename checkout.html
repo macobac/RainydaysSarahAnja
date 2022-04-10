@@ -50,54 +50,76 @@
     </header>
 
     <div class="backtitle">
-      <a href="shop.html" class="backarrow">
+      <a href="jacketname.html" class="backarrow">
         <i class="fa-solid fa-angle-left backarrowleft"> </i>Back</a
       >
     </div>
-    <main class="aboutmain aboutjn">
-      <div class="grid">
-        <div class="left">
-          <img src="Images/jacket1.png" alt="Happy woman in yellow skijacket" />
-          <img src="Images/jacket1.png" alt="Happy woman in yellow skijacket" />
-          <img src="Images/jacket1.png" alt="Happy woman in yellow skijacket" />
+    <main class="tymain checkoutmain">
+      <p class="ordersum">Your Order Summary</p>
+      <div class="sumimgtext">
+        <img src="Images/jacket1.png" alt="" />
+        <div class="sumimgtext2">
+          <p class="sumtitle">Jacket Flora</p>
+          <p class="suminfo">Colour: Yellow</p>
+          <p class="suminfo">Size: M/L</p>
+          <p class="sumprice">2.400 kr.</p>
         </div>
-        <div class="right">
-          <img src="Images/jacket6.png" alt="Happy woman in yellow skijacket" />
+      </div>
+      <div class="sumimgtext">
+        <img src="Images/jacket5.png" alt="" />
+        <div class="sumimgtext2">
+          <p class="sumtitle">Jacket Beta</p>
+          <p class="suminfo">Colour: Orange</p>
+          <p class="suminfo">Size: XS</p>
+          <p class="sumprice">1.500 kr.</p>
         </div>
       </div>
-
-      <h3>Jacket Abel</h3>
-      <p class="h3ptext">
-        Keeps you dry and comfortably warm through all your adventures.
-      </p>
-      <p class="pris">2.400 kr.</p>
-
-      <p class="colsiz">Colour</p>
-      <div class="colordots">
-        <i class="fa-solid fa-circle red"></i>
-        <i class="fa-solid fa-circle blue"></i>
-        <i class="fa-solid fa-circle green"></i>
-        <i class="fa-solid fa-circle black"></i>
-        <i class="fa-solid fa-circle brown"></i>
-        <i class="fa-solid fa-circle yellow"></i>
+      <div class="total">
+        <p>Subtotal</p>
+        <p>3.900 kr</p>
       </div>
-      <p class="colsiz">Size</p>
-      <div class="sizestext">
-        <p>XXS</p>
-        <p>XS</p>
-        <p>S</p>
-        <p>M/S</p>
-        <p>M</p>
-        <p>M/L</p>
-        <p>L</p>
-        <p>XL</p>
-        <p>XXL</p>
+      <div class="total totalcloser">
+        <p>Shipping</p>
+        <p>Free</p>
+      </div>
+      <hr />
+      <div class="total totalblack">
+        <p>Total</p>
+        <p>3.900 kr</p>
       </div>
 
-      <a href="#"><button class="save"><i class="fa-regular fa-heart"></i> Save</button></a>
-      <a href="checkout.html">
-        <button class="cart"><i class="fa-solid fa-bag-shopping"></i> Add to cart</button></a
-      >
+      <form action="#">
+        <p>Choose Checkout method</p>
+        <div class="method">
+          <input type="radio" id="vipps" value="vipps" />
+          <label for="vipps">
+            vippsimg<a href="thankyou.html"
+              ><button>Go to Vipps and pay now</button></a
+            ></label
+          >
+        </div>
+        <div class="method">
+          <input type="radio" id="card" value="card" />
+          <label for="card">Credit card</label>
+        </div>
+        <div class="method">
+          <input type="radio" id="paypal" value="paypal" />
+          <label for="paypal">Continue with paypalimg</label>
+        </div>
+        <div class="method">
+          <input type="radio" id="klarna" value="klarna" />
+          <label for="klarna">Continue with klarnaimg</label>
+        </div>
+      </form>
+
+      <form action="#">
+        <p>Not a member? Register now and get 10% off your next purchase!</p>
+        <div class="emailform">
+          <input type="email" id="email" value="Email" required placeholder="example@icloud.com"/>
+        </div>
+        <input type="checkbox" id="checkbox" value="checkbox" required />
+        <input type="submit" value="Submit">
+      </form>
     </main>
 
     <footer>
