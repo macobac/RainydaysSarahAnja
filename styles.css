@@ -513,21 +513,28 @@ select {
 
 /* Jacketname section */
 
-.grid {
-  grid-template-columns: repeat(3, 1fr);
-  
+.containergrid {
+  display: grid;
+  grid-template-areas:
+    "grid-1 grid-2"
+    "grid-3 grid-2"
+    "grid-4 grid-2";
 }
 
-.left {
-  grid-template-rows: repeat(3, 1fr);
-  width: 100%;
-  height: 100%;
+.grid-1 {
+  grid-area: grid-1;
 }
 
-.left img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.grid-2 {
+  grid-area: grid-2;
+}
+
+.grid-3 {
+  grid-area: grid-3;
+}
+
+.grid-4 {
+  grid-area: grid-4;
 }
 
 .aboutjn h3 {
@@ -586,7 +593,8 @@ select {
   cursor: pointer;
 }
 
-.save, .cart {
+.save,
+.cart {
   border: none;
   border-radius: 20px;
   font-size: 1rem;
@@ -595,7 +603,8 @@ select {
   margin-top: 10px;
 }
 
-.save .fa-heart, .cart .fa-bag-shopping {
+.save .fa-heart,
+.cart .fa-bag-shopping {
   font-size: 1.3rem;
   color: #00acee;
 }
@@ -635,7 +644,7 @@ select {
   font-size: 1rem;
   box-shadow: 2px 3px 2px #bbbbbbc5;
   cursor: pointer;
-  background-color: #FF5B24;
+  background-color: #ff5b24;
   height: 30px;
   width: 230px;
 }
@@ -655,7 +664,6 @@ select {
 
 .emailform ::placeholder {
   color: lightgray;
-
 }
 
 .submit {
