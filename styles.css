@@ -62,8 +62,7 @@ nav,
 }
 
 .homeimgbig,
-.home-newin-big,
-.backtitle {
+.home-newin-big {
   display: none;
 }
 
@@ -361,6 +360,151 @@ select {
 .wrappershop .cardstext {
   padding-bottom: 10px;
 }
+
+/* thankyou section */
+
+.fa-circle-check {
+  color: #f7993c;
+  font-size: 6rem;
+}
+
+.tymain {
+  padding: 30px 15px;
+}
+
+.tytext, .notready {
+  text-align: center;
+}
+
+.tytext h1 {
+  color: #062730;
+  font-size: 2rem;
+}
+
+.tytext h2 {
+  color: #062730;
+  font-size: 1.2rem;
+}
+
+.tytext p {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 25px 0px;
+}
+
+.ordersum {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.sumimgtext {
+  display: flex;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.sumimgtext img{
+  width: 60%;
+  padding-right: 10px;
+}
+
+.sumimgtext2 {
+  width: 100%;
+}
+
+.sumtitle {
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 30px;
+}
+
+.suminfo, .sumprice {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.sumprice {
+  padding-top: 30px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.totalcloser {
+  margin-top: -20px;
+}
+
+.totalblack {
+  font-weight: 500;
+}
+
+.nr1 {
+  font-size: 1.2rem;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.goto {
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  font-weight: 100;
+  font-size: 1rem;
+  box-shadow: 2px 3px 2px #bbbbbbc5;
+}
+
+.moreinspo {
+  color: white;
+  background-color: #4a93a5;
+}
+
+.gotohome {
+  color: #4a93a5;
+  background-color: white;
+  border: solid;
+  border-color: #4a93a5c4;
+  margin-top: 15px;
+}
+
+.nr2 {
+  font-size: 1.1rem;
+  padding-top: 20px;
+}
+
+.fa-brands {
+  font-size: 3rem;
+  padding-right: 10px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-twitter-square {
+  color: #00acee;
+}
+
+.fa-instagram-square {
+  color: #bc2a8d;
+}
+
+.some {
+  display: flex;
+  justify-content: center;
+  
+  padding-top: 20px;
+}
+
+.gotocontact {
+  color: white;
+  background-color: #0a3641;
+}
+
 
 @media (min-width: 480px) {
   .home-newin-mobile {
