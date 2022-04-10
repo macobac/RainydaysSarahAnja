@@ -511,6 +511,77 @@ select {
   background-color: #0a3641;
 }
 
+/* Jacketname section */
+
+.fleximg {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.sideimg img {
+  width: 60%;
+}
+
+.aboutmain h3 {
+  color: #0a3641;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.h3ptext {
+  color: #0a3641;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.pris {
+  font-size: 1rem;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+
+.colsiz {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.colordots {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.red {
+  color: rgb(186, 6, 6);
+}
+
+.blue {
+  color: rgb(26, 26, 131);
+}
+
+.green {
+  color: rgb(6, 59, 22);
+}
+
+.brown {
+  color: rgb(84, 25, 25);
+}
+
+.yellow {
+  color: rgb(234, 194, 47);
+}
+
+.sizestext {
+  display: flex;
+  font-weight: 300;
+  font-size: 1rem;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+
+
 @media (min-width: 480px) {
   .home-newin-mobile {
     padding: 25px 30px;
