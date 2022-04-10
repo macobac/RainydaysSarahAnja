@@ -99,6 +99,7 @@ nav,
   font-size: 1rem;
   box-shadow: 2px 3px 2px #bbbbbbc5;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 .home-newin-mobile,
@@ -136,6 +137,7 @@ h2 {
 .cardsimg img {
   height: auto;
   max-width: 100%;
+  cursor: pointer;
 }
 
 .cardstext {
@@ -143,6 +145,8 @@ h2 {
   font-weight: 100;
   display: flex;
   justify-content: center;
+  color: black;
+  cursor: pointer;
 }
 
 .jacketprice {
@@ -243,7 +247,7 @@ footer {
 
 .abouttext h3 {
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .aboutimg {
@@ -372,7 +376,8 @@ select {
   padding: 30px 15px;
 }
 
-.tytext, .notready {
+.tytext,
+.notready {
   text-align: center;
 }
 
@@ -403,7 +408,7 @@ select {
   padding-bottom: 20px;
 }
 
-.sumimgtext img{
+.sumimgtext img {
   width: 60%;
   padding-right: 10px;
 }
@@ -418,7 +423,8 @@ select {
   padding-bottom: 30px;
 }
 
-.suminfo, .sumprice {
+.suminfo,
+.sumprice {
   font-weight: 300;
   font-size: 1rem;
 }
@@ -456,6 +462,7 @@ select {
   font-weight: 100;
   font-size: 1rem;
   box-shadow: 2px 3px 2px #bbbbbbc5;
+  cursor: pointer;
 }
 
 .moreinspo {
@@ -496,7 +503,6 @@ select {
 .some {
   display: flex;
   justify-content: center;
-  
   padding-top: 20px;
 }
 
@@ -504,7 +510,6 @@ select {
   color: white;
   background-color: #0a3641;
 }
-
 
 @media (min-width: 480px) {
   .home-newin-mobile {
@@ -533,7 +538,6 @@ select {
 
   nav a {
     display: inline;
-    font-size: 0.9rem;
     top: 45px;
     right: 7px;
     background-color: transparent;
@@ -583,13 +587,11 @@ select {
   }
 
   .hometext p {
-    font-size: 0.9rem;
     line-height: 21px;
   }
 
   .learnmore-btn {
     box-shadow: 2px 3px 2px #131313bd;
-    font-size: 0.9rem;
     height: 30px;
     width: 120px;
   }
@@ -612,13 +614,12 @@ select {
   }
 
   .homeh2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding-left: 40px;
     padding-top: 40px;
   }
 
   .cardstextbig {
-    font-size: 0.8rem;
     font-weight: 100;
     display: flex;
     width: 100%;
@@ -652,10 +653,6 @@ select {
 
   /* about section */
 
-  .backtitle h2 {
-    font-size: 1.7rem;
-  }
-
   .aboutmain {
     padding: 0px 50px;
   }
@@ -677,22 +674,28 @@ select {
   .wrappershop .cardsimg img {
     max-width: 50%;
   }
+
+  /* thankyou section */
+  .tymain {
+    padding: 0px 50px;
+    margin-bottom: 70px;
+  }
+
+  .tytext {
+    padding-top: 50px;
+  }
+
+  .notready,
+  .ordersum {
+    padding-top: 40px;
+  }
+
+  .nr2 {
+    padding: 15px 0px;
+  }
 }
 
 @media (min-width: 800px) {
-  .jackettextbig {
-    font-size: 1rem;
-  }
-
-  .hometext h1 {
-    font-size: 1.8rem;
-  }
-
-  .hometext p,
-  .learnmore-btn {
-    font-size: 1.1rem;
-  }
-
   .learnmore-btn {
     height: 35px;
     width: 140px;
@@ -717,14 +720,6 @@ select {
 
   /* about section */
 
-  .backtitle h2 {
-    font-size: 2rem;
-  }
-
-  .backtitle a {
-    font-size: 1.3rem;
-  }
-
   .aboutmain {
     padding: 0px 130px;
   }
@@ -748,11 +743,23 @@ select {
   .wrappershop .cardsimg img {
     max-width: 40%;
   }
+
+  /* thankyou section */
+  .tymain {
+    padding: 0px 130px;
+  }
+
+  .tytext {
+    padding-top: 70px;
+  }
+
+  .fa-circle-check {
+    font-size: 9rem;
+  }
 }
 
 @media (min-width: 1200px) {
   nav a {
-    font-size: 1.2rem;
     top: 45px;
     right: 30px;
     margin-left: -10px;
@@ -765,13 +772,11 @@ select {
   }
 
   .hometext h1 {
-    font-size: 2.5rem;
     line-height: 50px;
   }
 
   .hometext p,
   .learnmore-btn {
-    font-size: 1.3rem;
     line-height: 25px;
   }
 
@@ -780,19 +785,7 @@ select {
     width: 170px;
   }
 
-  .footertext {
-    font-size: 1.2rem;
-  }
-
   /* about section */
-
-  .backtitle h2 {
-    font-size: 2.5rem;
-  }
-
-  .backtitle a {
-    font-size: 1.5rem;
-  }
 
   .aboutmain {
     padding: 0px 200px;
@@ -808,21 +801,7 @@ select {
     padding-top: 50px;
   }
 
-  .abouttext p {
-    font-weight: 300;
-    font-size: 1.5rem;
-  }
-
-  .abouttext h3 {
-    font-weight: 500;
-    font-size: 2rem;
-  }
-
   /* contact section */
-
-  .contacttext {
-    font-size: 1.5rem;
-  }
 
   .forminput input {
     width: 50%;
@@ -832,54 +811,32 @@ select {
     width: 70%;
   }
 
-  .forminput label {
-    font-size: 1.5rem;
-  }
-
-  .forminput ::placeholder {
-    font-size: 1.1rem;
-  }
-
-  .forminput p {
-    font-size: 1rem;
-  }
-
-  .submitbtn {
-    height: 40px;
-    width: 150px;
-    font-size: 1.5rem;
+  /* thankyou section */
+  .tymain {
+    padding: 0px 200px;
   }
 }
 
 @media (min-width: 1500px) {
   .hometext p {
-    padding: 20px 0px;
+    padding: 10px 0px;
     line-height: 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .learnmore-btn {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     height: 50px;
     width: 190px;
   }
 
   .hometext h1 {
-    font-size: 3rem;
-    line-height: 60px;
-  }
-
-  .homeh2 {
     font-size: 2rem;
+    line-height: 60px;
   }
 
   .cardstextbig {
     padding-top: 10px;
-  }
-
-  .jackettextbig,
-  .seemorebig {
-    font-size: 1.2rem;
   }
 
   .fa-heart-big {
@@ -905,5 +862,13 @@ select {
   .forminput input,
   .forminput textarea {
     padding: 12px 10px;
+  }
+  /* thankyou section */
+  .tymain {
+    padding: 0px 250px;
+  }
+
+  .fa-circle-check {
+    font-size: 12rem;
   }
 }
